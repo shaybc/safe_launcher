@@ -1,0 +1,51 @@
+# Build outputs
+bin/
+obj/
+publish/
+dist/
+
+# Generated launcher source produced from the selected config package
+src/SafeLauncher/Generated/
+
+# Local runnable executables copied to the repository root
+*.exe
+!src/**/*.exe
+
+# Windows shortcuts and installer/package artifacts
+*.lnk
+*.msi
+*.zip
+*.7z
+*.rar
+
+# Visual Studio / Rider / VS Code local state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET diagnostics and test output
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local package transfer/export scratch files
+exports/
+imports/

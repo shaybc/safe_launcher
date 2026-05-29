@@ -1,0 +1,28 @@
+{
+  "notes": "",
+  "launcher": {
+    "executableName": "agent1.exe",
+    "iconFile": ""
+  },
+  "restrictedUser": {
+    "domain": ".",
+    "userName": "tester"
+  },
+  "credentialManager": {
+    "targetName": "mytest/test"
+  },
+  "destination": {
+    "executable": "aaa.bat",
+    "workingDirectory": "C:\\temp",
+    "arguments": []
+  },
+  "preLaunch": {
+    "batchFile": "prelaunch.cmd",
+    "timeoutSeconds": 30
+  },
+  "splash": {
+    "enabled": false,
+    "imageFile": "",
+    "minimumSeconds": 0
+  }
+}

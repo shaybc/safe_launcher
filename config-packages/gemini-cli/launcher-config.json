@@ -1,0 +1,36 @@
+{
+  "notes": "",
+  "launcher": {
+    "executableName": "gemini_cli.exe",
+    "iconFile": "AI_30919.ico"
+  },
+  "restrictedUser": {
+    "domain": ".",
+    "userName": "ai_agent_user"
+  },
+  "credentialManager": {
+    "targetName": "SafeLauncher/ai_agent_user"
+  },
+  "destination": {
+    "executable": "node.exe",
+    "workingDirectory": "C:\\ai-workspace",
+    "arguments": [
+      "C:\\gemini-cli\\node_modules\\@google\\gemini-cli\\bundle\\gemini.js",
+      "--approval-mode",
+      "default",
+      "-e",
+      "none",
+      "--policy",
+      "C:\\gemini-cli\\.gemini\\policies\\deny-shell.toml"
+    ]
+  },
+  "preLaunch": {
+    "batchFile": "gemini-cli-prelaunch.cmd",
+    "timeoutSeconds": 30
+  },
+  "splash": {
+    "enabled": true,
+    "imageFile": "AI_30919.png",
+    "minimumSeconds": 5
+  }
+}
