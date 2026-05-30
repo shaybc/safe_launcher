@@ -1,0 +1,1855 @@
+Folder PATH listing
+Volume serial number is D4E7-07B5
+C:.
+³   .gitignore
+³   build.lnk
+³   README.md
+³   safe_launcher_admin.exe
+³   tree_after_build.txt
+³   
+ÃÄÄÄconfig-packages
+³   ÃÄÄÄagent1
+³   ³       launcher-config.json
+³   ³       prelaunch.cmd
+³   ³       
+³   ÀÄÄÄgemini-cli
+³           AI_30919.ico
+³           AI_30919.png
+³           gemini-cli-prelaunch.cmd
+³           launcher-config.json
+³           
+ÃÄÄÄdist
+³   ÃÄÄÄagent1
+³   ³       agent1.exe
+³   ³       
+³   ÀÄÄÄgemini-cli
+³           gemini_cli.exe
+³           
+ÀÄÄÄsrc
+    ³   global.json
+    ³   NuGet.config
+    ³   
+    ÃÄÄÄpackages
+    ³   ÃÄÄÄmicrosoft.aspnetcore.app.runtime.win-x64
+    ³   ³   ÀÄÄÄ8.0.0
+    ³   ³       ³   .nupkg.metadata
+    ³   ³       ³   .signature.p7s
+    ³   ³       ³   Icon.png
+    ³   ³       ³   microsoft.aspnetcore.app.runtime.win-x64.8.0.0.nupkg
+    ³   ³       ³   microsoft.aspnetcore.app.runtime.win-x64.8.0.0.nupkg.sha512
+    ³   ³       ³   microsoft.aspnetcore.app.runtime.win-x64.nuspec
+    ³   ³       ³   Microsoft.AspNetCore.App.versions.txt
+    ³   ³       ³   THIRD-PARTY-NOTICES.TXT
+    ³   ³       ³   
+    ³   ³       ÃÄÄÄdata
+    ³   ³       ³       PlatformManifest.txt
+    ³   ³       ³       RuntimeList.xml
+    ³   ³       ³       
+    ³   ³       ÀÄÄÄruntimes
+    ³   ³           ÀÄÄÄwin-x64
+    ³   ³               ÃÄÄÄlib
+    ³   ³               ³   ÀÄÄÄnet8.0
+    ³   ³               ³           Microsoft.AspNetCore.Antiforgery.dll
+    ³   ³               ³           Microsoft.AspNetCore.App.deps.json
+    ³   ³               ³           Microsoft.AspNetCore.App.runtimeconfig.json
+    ³   ³               ³           Microsoft.AspNetCore.Authentication.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authentication.BearerToken.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authentication.Cookies.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authentication.Core.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authentication.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authentication.OAuth.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authorization.dll
+    ³   ³               ³           Microsoft.AspNetCore.Authorization.Policy.dll
+    ³   ³               ³           Microsoft.AspNetCore.Components.Authorization.dll
+    ³   ³               ³           Microsoft.AspNetCore.Components.dll
+    ³   ³               ³           Microsoft.AspNetCore.Components.Endpoints.dll
+    ³   ³               ³           Microsoft.AspNetCore.Components.Forms.dll
+    ³   ³               ³           Microsoft.AspNetCore.Components.Server.dll
+    ³   ³               ³           Microsoft.AspNetCore.Components.Web.dll
+    ³   ³               ³           Microsoft.AspNetCore.Connections.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.CookiePolicy.dll
+    ³   ³               ³           Microsoft.AspNetCore.Cors.dll
+    ³   ³               ³           Microsoft.AspNetCore.Cryptography.Internal.dll
+    ³   ³               ³           Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+    ³   ³               ³           Microsoft.AspNetCore.DataProtection.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.DataProtection.dll
+    ³   ³               ³           Microsoft.AspNetCore.DataProtection.Extensions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Diagnostics.dll
+    ³   ³               ³           Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+    ³   ³               ³           Microsoft.AspNetCore.dll
+    ³   ³               ³           Microsoft.AspNetCore.HostFiltering.dll
+    ³   ³               ³           Microsoft.AspNetCore.Hosting.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Hosting.dll
+    ³   ³               ³           Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Html.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.Connections.Common.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.Connections.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.Extensions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.Features.dll
+    ³   ³               ³           Microsoft.AspNetCore.Http.Results.dll
+    ³   ³               ³           Microsoft.AspNetCore.HttpLogging.dll
+    ³   ³               ³           Microsoft.AspNetCore.HttpOverrides.dll
+    ³   ³               ³           Microsoft.AspNetCore.HttpsPolicy.dll
+    ³   ³               ³           Microsoft.AspNetCore.Identity.dll
+    ³   ³               ³           Microsoft.AspNetCore.Localization.dll
+    ³   ³               ³           Microsoft.AspNetCore.Localization.Routing.dll
+    ³   ³               ³           Microsoft.AspNetCore.Metadata.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Core.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Cors.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Localization.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.Razor.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.RazorPages.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.TagHelpers.dll
+    ³   ³               ³           Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+    ³   ³               ³           Microsoft.AspNetCore.OutputCaching.dll
+    ³   ³               ³           Microsoft.AspNetCore.RateLimiting.dll
+    ³   ³               ³           Microsoft.AspNetCore.Razor.dll
+    ³   ³               ³           Microsoft.AspNetCore.Razor.Runtime.dll
+    ³   ³               ³           Microsoft.AspNetCore.RequestDecompression.dll
+    ³   ³               ³           Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.ResponseCaching.dll
+    ³   ³               ³           Microsoft.AspNetCore.ResponseCompression.dll
+    ³   ³               ³           Microsoft.AspNetCore.Rewrite.dll
+    ³   ³               ³           Microsoft.AspNetCore.Routing.Abstractions.dll
+    ³   ³               ³           Microsoft.AspNetCore.Routing.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.HttpSys.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.IIS.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.IISIntegration.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.Kestrel.Core.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.Kestrel.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+    ³   ³               ³           Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+    ³   ³               ³           Microsoft.AspNetCore.Session.dll
+    ³   ³               ³           Microsoft.AspNetCore.SignalR.Common.dll
+    ³   ³               ³           Microsoft.AspNetCore.SignalR.Core.dll
+    ³   ³               ³           Microsoft.AspNetCore.SignalR.dll
+    ³   ³               ³           Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+    ³   ³               ³           Microsoft.AspNetCore.StaticFiles.dll
+    ³   ³               ³           Microsoft.AspNetCore.WebSockets.dll
+    ³   ³               ³           Microsoft.AspNetCore.WebUtilities.dll
+    ³   ³               ³           Microsoft.Extensions.Caching.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Caching.Memory.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.Binder.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.CommandLine.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.FileExtensions.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.Ini.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.Json.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.KeyPerFile.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.UserSecrets.dll
+    ³   ³               ³           Microsoft.Extensions.Configuration.Xml.dll
+    ³   ³               ³           Microsoft.Extensions.DependencyInjection.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.DependencyInjection.dll
+    ³   ³               ³           Microsoft.Extensions.Diagnostics.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Diagnostics.dll
+    ³   ³               ³           Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Diagnostics.HealthChecks.dll
+    ³   ³               ³           Microsoft.Extensions.Features.dll
+    ³   ³               ³           Microsoft.Extensions.FileProviders.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.FileProviders.Composite.dll
+    ³   ³               ³           Microsoft.Extensions.FileProviders.Embedded.dll
+    ³   ³               ³           Microsoft.Extensions.FileProviders.Physical.dll
+    ³   ³               ³           Microsoft.Extensions.FileSystemGlobbing.dll
+    ³   ³               ³           Microsoft.Extensions.Hosting.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Hosting.dll
+    ³   ³               ³           Microsoft.Extensions.Http.dll
+    ³   ³               ³           Microsoft.Extensions.Identity.Core.dll
+    ³   ³               ³           Microsoft.Extensions.Identity.Stores.dll
+    ³   ³               ³           Microsoft.Extensions.Localization.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Localization.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.Abstractions.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.Configuration.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.Console.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.Debug.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.EventLog.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.EventSource.dll
+    ³   ³               ³           Microsoft.Extensions.Logging.TraceSource.dll
+    ³   ³               ³           Microsoft.Extensions.ObjectPool.dll
+    ³   ³               ³           Microsoft.Extensions.Options.ConfigurationExtensions.dll
+    ³   ³               ³           Microsoft.Extensions.Options.DataAnnotations.dll
+    ³   ³               ³           Microsoft.Extensions.Options.dll
+    ³   ³               ³           Microsoft.Extensions.Primitives.dll
+    ³   ³               ³           Microsoft.Extensions.WebEncoders.dll
+    ³   ³               ³           Microsoft.JSInterop.dll
+    ³   ³               ³           Microsoft.Net.Http.Headers.dll
+    ³   ³               ³           System.Diagnostics.EventLog.dll
+    ³   ³               ³           System.Diagnostics.EventLog.Messages.dll
+    ³   ³               ³           System.IO.Pipelines.dll
+    ³   ³               ³           System.Security.Cryptography.Pkcs.dll
+    ³   ³               ³           System.Security.Cryptography.Xml.dll
+    ³   ³               ³           System.Threading.RateLimiting.dll
+    ³   ³               ³           
+    ³   ³               ÀÄÄÄnative
+    ³   ³                       aspnetcorev2_inprocess.dll
+    ³   ³                       
+    ³   ÃÄÄÄmicrosoft.netcore.app.runtime.win-x64
+    ³   ³   ÀÄÄÄ8.0.0
+    ³   ³       ³   .nupkg.metadata
+    ³   ³       ³   .signature.p7s
+    ³   ³       ³   Icon.png
+    ³   ³       ³   LICENSE.TXT
+    ³   ³       ³   microsoft.netcore.app.runtime.win-x64.8.0.0.nupkg
+    ³   ³       ³   microsoft.netcore.app.runtime.win-x64.8.0.0.nupkg.sha512
+    ³   ³       ³   microsoft.netcore.app.runtime.win-x64.nuspec
+    ³   ³       ³   Microsoft.NETCore.App.versions.txt
+    ³   ³       ³   THIRD-PARTY-NOTICES.TXT
+    ³   ³       ³   useSharedDesignerContext.txt
+    ³   ³       ³   
+    ³   ³       ÃÄÄÄdata
+    ³   ³       ³       RuntimeList.xml
+    ³   ³       ³       
+    ³   ³       ÃÄÄÄruntimes
+    ³   ³       ³   ÀÄÄÄwin-x64
+    ³   ³       ³       ÃÄÄÄlib
+    ³   ³       ³       ³   ÀÄÄÄnet8.0
+    ³   ³       ³       ³           Microsoft.CSharp.dll
+    ³   ³       ³       ³           Microsoft.NETCore.App.deps.json
+    ³   ³       ³       ³           Microsoft.NETCore.App.runtimeconfig.json
+    ³   ³       ³       ³           Microsoft.VisualBasic.Core.dll
+    ³   ³       ³       ³           Microsoft.VisualBasic.dll
+    ³   ³       ³       ³           Microsoft.Win32.Primitives.dll
+    ³   ³       ³       ³           Microsoft.Win32.Registry.dll
+    ³   ³       ³       ³           mscorlib.dll
+    ³   ³       ³       ³           netstandard.dll
+    ³   ³       ³       ³           System.AppContext.dll
+    ³   ³       ³       ³           System.Buffers.dll
+    ³   ³       ³       ³           System.Collections.Concurrent.dll
+    ³   ³       ³       ³           System.Collections.dll
+    ³   ³       ³       ³           System.Collections.Immutable.dll
+    ³   ³       ³       ³           System.Collections.NonGeneric.dll
+    ³   ³       ³       ³           System.Collections.Specialized.dll
+    ³   ³       ³       ³           System.ComponentModel.Annotations.dll
+    ³   ³       ³       ³           System.ComponentModel.DataAnnotations.dll
+    ³   ³       ³       ³           System.ComponentModel.dll
+    ³   ³       ³       ³           System.ComponentModel.EventBasedAsync.dll
+    ³   ³       ³       ³           System.ComponentModel.Primitives.dll
+    ³   ³       ³       ³           System.ComponentModel.TypeConverter.dll
+    ³   ³       ³       ³           System.Configuration.dll
+    ³   ³       ³       ³           System.Console.dll
+    ³   ³       ³       ³           System.Core.dll
+    ³   ³       ³       ³           System.Data.Common.dll
+    ³   ³       ³       ³           System.Data.DataSetExtensions.dll
+    ³   ³       ³       ³           System.Data.dll
+    ³   ³       ³       ³           System.Diagnostics.Contracts.dll
+    ³   ³       ³       ³           System.Diagnostics.Debug.dll
+    ³   ³       ³       ³           System.Diagnostics.DiagnosticSource.dll
+    ³   ³       ³       ³           System.Diagnostics.FileVersionInfo.dll
+    ³   ³       ³       ³           System.Diagnostics.Process.dll
+    ³   ³       ³       ³           System.Diagnostics.StackTrace.dll
+    ³   ³       ³       ³           System.Diagnostics.TextWriterTraceListener.dll
+    ³   ³       ³       ³           System.Diagnostics.Tools.dll
+    ³   ³       ³       ³           System.Diagnostics.TraceSource.dll
+    ³   ³       ³       ³           System.Diagnostics.Tracing.dll
+    ³   ³       ³       ³           System.dll
+    ³   ³       ³       ³           System.Drawing.dll
+    ³   ³       ³       ³           System.Drawing.Primitives.dll
+    ³   ³       ³       ³           System.Dynamic.Runtime.dll
+    ³   ³       ³       ³           System.Formats.Asn1.dll
+    ³   ³       ³       ³           System.Formats.Tar.dll
+    ³   ³       ³       ³           System.Globalization.Calendars.dll
+    ³   ³       ³       ³           System.Globalization.dll
+    ³   ³       ³       ³           System.Globalization.Extensions.dll
+    ³   ³       ³       ³           System.IO.Compression.Brotli.dll
+    ³   ³       ³       ³           System.IO.Compression.dll
+    ³   ³       ³       ³           System.IO.Compression.FileSystem.dll
+    ³   ³       ³       ³           System.IO.Compression.ZipFile.dll
+    ³   ³       ³       ³           System.IO.dll
+    ³   ³       ³       ³           System.IO.FileSystem.AccessControl.dll
+    ³   ³       ³       ³           System.IO.FileSystem.dll
+    ³   ³       ³       ³           System.IO.FileSystem.DriveInfo.dll
+    ³   ³       ³       ³           System.IO.FileSystem.Primitives.dll
+    ³   ³       ³       ³           System.IO.FileSystem.Watcher.dll
+    ³   ³       ³       ³           System.IO.IsolatedStorage.dll
+    ³   ³       ³       ³           System.IO.MemoryMappedFiles.dll
+    ³   ³       ³       ³           System.IO.Pipes.AccessControl.dll
+    ³   ³       ³       ³           System.IO.Pipes.dll
+    ³   ³       ³       ³           System.IO.UnmanagedMemoryStream.dll
+    ³   ³       ³       ³           System.Linq.dll
+    ³   ³       ³       ³           System.Linq.Expressions.dll
+    ³   ³       ³       ³           System.Linq.Parallel.dll
+    ³   ³       ³       ³           System.Linq.Queryable.dll
+    ³   ³       ³       ³           System.Memory.dll
+    ³   ³       ³       ³           System.Net.dll
+    ³   ³       ³       ³           System.Net.Http.dll
+    ³   ³       ³       ³           System.Net.Http.Json.dll
+    ³   ³       ³       ³           System.Net.HttpListener.dll
+    ³   ³       ³       ³           System.Net.Mail.dll
+    ³   ³       ³       ³           System.Net.NameResolution.dll
+    ³   ³       ³       ³           System.Net.NetworkInformation.dll
+    ³   ³       ³       ³           System.Net.Ping.dll
+    ³   ³       ³       ³           System.Net.Primitives.dll
+    ³   ³       ³       ³           System.Net.Quic.dll
+    ³   ³       ³       ³           System.Net.Requests.dll
+    ³   ³       ³       ³           System.Net.Security.dll
+    ³   ³       ³       ³           System.Net.ServicePoint.dll
+    ³   ³       ³       ³           System.Net.Sockets.dll
+    ³   ³       ³       ³           System.Net.WebClient.dll
+    ³   ³       ³       ³           System.Net.WebHeaderCollection.dll
+    ³   ³       ³       ³           System.Net.WebProxy.dll
+    ³   ³       ³       ³           System.Net.WebSockets.Client.dll
+    ³   ³       ³       ³           System.Net.WebSockets.dll
+    ³   ³       ³       ³           System.Numerics.dll
+    ³   ³       ³       ³           System.Numerics.Vectors.dll
+    ³   ³       ³       ³           System.ObjectModel.dll
+    ³   ³       ³       ³           System.Private.CoreLib.dll
+    ³   ³       ³       ³           System.Private.DataContractSerialization.dll
+    ³   ³       ³       ³           System.Private.Uri.dll
+    ³   ³       ³       ³           System.Private.Xml.dll
+    ³   ³       ³       ³           System.Private.Xml.Linq.dll
+    ³   ³       ³       ³           System.Reflection.DispatchProxy.dll
+    ³   ³       ³       ³           System.Reflection.dll
+    ³   ³       ³       ³           System.Reflection.Emit.dll
+    ³   ³       ³       ³           System.Reflection.Emit.ILGeneration.dll
+    ³   ³       ³       ³           System.Reflection.Emit.Lightweight.dll
+    ³   ³       ³       ³           System.Reflection.Extensions.dll
+    ³   ³       ³       ³           System.Reflection.Metadata.dll
+    ³   ³       ³       ³           System.Reflection.Primitives.dll
+    ³   ³       ³       ³           System.Reflection.TypeExtensions.dll
+    ³   ³       ³       ³           System.Resources.Reader.dll
+    ³   ³       ³       ³           System.Resources.ResourceManager.dll
+    ³   ³       ³       ³           System.Resources.Writer.dll
+    ³   ³       ³       ³           System.Runtime.CompilerServices.Unsafe.dll
+    ³   ³       ³       ³           System.Runtime.CompilerServices.VisualC.dll
+    ³   ³       ³       ³           System.Runtime.dll
+    ³   ³       ³       ³           System.Runtime.Extensions.dll
+    ³   ³       ³       ³           System.Runtime.Handles.dll
+    ³   ³       ³       ³           System.Runtime.InteropServices.dll
+    ³   ³       ³       ³           System.Runtime.InteropServices.JavaScript.dll
+    ³   ³       ³       ³           System.Runtime.InteropServices.RuntimeInformation.dll
+    ³   ³       ³       ³           System.Runtime.Intrinsics.dll
+    ³   ³       ³       ³           System.Runtime.Loader.dll
+    ³   ³       ³       ³           System.Runtime.Numerics.dll
+    ³   ³       ³       ³           System.Runtime.Serialization.dll
+    ³   ³       ³       ³           System.Runtime.Serialization.Formatters.dll
+    ³   ³       ³       ³           System.Runtime.Serialization.Json.dll
+    ³   ³       ³       ³           System.Runtime.Serialization.Primitives.dll
+    ³   ³       ³       ³           System.Runtime.Serialization.Xml.dll
+    ³   ³       ³       ³           System.Security.AccessControl.dll
+    ³   ³       ³       ³           System.Security.Claims.dll
+    ³   ³       ³       ³           System.Security.Cryptography.Algorithms.dll
+    ³   ³       ³       ³           System.Security.Cryptography.Cng.dll
+    ³   ³       ³       ³           System.Security.Cryptography.Csp.dll
+    ³   ³       ³       ³           System.Security.Cryptography.dll
+    ³   ³       ³       ³           System.Security.Cryptography.Encoding.dll
+    ³   ³       ³       ³           System.Security.Cryptography.OpenSsl.dll
+    ³   ³       ³       ³           System.Security.Cryptography.Primitives.dll
+    ³   ³       ³       ³           System.Security.Cryptography.X509Certificates.dll
+    ³   ³       ³       ³           System.Security.dll
+    ³   ³       ³       ³           System.Security.Principal.dll
+    ³   ³       ³       ³           System.Security.Principal.Windows.dll
+    ³   ³       ³       ³           System.Security.SecureString.dll
+    ³   ³       ³       ³           System.ServiceModel.Web.dll
+    ³   ³       ³       ³           System.ServiceProcess.dll
+    ³   ³       ³       ³           System.Text.Encoding.CodePages.dll
+    ³   ³       ³       ³           System.Text.Encoding.dll
+    ³   ³       ³       ³           System.Text.Encoding.Extensions.dll
+    ³   ³       ³       ³           System.Text.Encodings.Web.dll
+    ³   ³       ³       ³           System.Text.Json.dll
+    ³   ³       ³       ³           System.Text.RegularExpressions.dll
+    ³   ³       ³       ³           System.Threading.Channels.dll
+    ³   ³       ³       ³           System.Threading.dll
+    ³   ³       ³       ³           System.Threading.Overlapped.dll
+    ³   ³       ³       ³           System.Threading.Tasks.Dataflow.dll
+    ³   ³       ³       ³           System.Threading.Tasks.dll
+    ³   ³       ³       ³           System.Threading.Tasks.Extensions.dll
+    ³   ³       ³       ³           System.Threading.Tasks.Parallel.dll
+    ³   ³       ³       ³           System.Threading.Thread.dll
+    ³   ³       ³       ³           System.Threading.ThreadPool.dll
+    ³   ³       ³       ³           System.Threading.Timer.dll
+    ³   ³       ³       ³           System.Transactions.dll
+    ³   ³       ³       ³           System.Transactions.Local.dll
+    ³   ³       ³       ³           System.ValueTuple.dll
+    ³   ³       ³       ³           System.Web.dll
+    ³   ³       ³       ³           System.Web.HttpUtility.dll
+    ³   ³       ³       ³           System.Windows.dll
+    ³   ³       ³       ³           System.Xml.dll
+    ³   ³       ³       ³           System.Xml.Linq.dll
+    ³   ³       ³       ³           System.Xml.ReaderWriter.dll
+    ³   ³       ³       ³           System.Xml.Serialization.dll
+    ³   ³       ³       ³           System.Xml.XDocument.dll
+    ³   ³       ³       ³           System.Xml.XmlDocument.dll
+    ³   ³       ³       ³           System.Xml.XmlSerializer.dll
+    ³   ³       ³       ³           System.Xml.XPath.dll
+    ³   ³       ³       ³           System.Xml.XPath.XDocument.dll
+    ³   ³       ³       ³           WindowsBase.dll
+    ³   ³       ³       ³           
+    ³   ³       ³       ÀÄÄÄnative
+    ³   ³       ³               clretwrc.dll
+    ³   ³       ³               clrgc.dll
+    ³   ³       ³               clrjit.dll
+    ³   ³       ³               coreclr.dll
+    ³   ³       ³               createdump.exe
+    ³   ³       ³               hostfxr.dll
+    ³   ³       ³               hostpolicy.dll
+    ³   ³       ³               Microsoft.DiaSymReader.Native.amd64.dll
+    ³   ³       ³               mscordaccore.dll
+    ³   ³       ³               mscordaccore_amd64_amd64_8.0.23.53103.dll
+    ³   ³       ³               mscordbi.dll
+    ³   ³       ³               mscorrc.dll
+    ³   ³       ³               msquic.dll
+    ³   ³       ³               System.IO.Compression.Native.dll
+    ³   ³       ³               
+    ³   ³       ÀÄÄÄtools
+    ³   ³               StandardOptimizationData.mibc
+    ³   ³               
+    ³   ÀÄÄÄmicrosoft.windowsdesktop.app.runtime.win-x64
+    ³       ÀÄÄÄ8.0.0
+    ³           ³   .nupkg.metadata
+    ³           ³   .signature.p7s
+    ³           ³   Icon.png
+    ³           ³   LICENSE
+    ³           ³   microsoft.windowsdesktop.app.runtime.win-x64.8.0.0.nupkg
+    ³           ³   microsoft.windowsdesktop.app.runtime.win-x64.8.0.0.nupkg.sha512
+    ³           ³   microsoft.windowsdesktop.app.runtime.win-x64.nuspec
+    ³           ³   Microsoft.WindowsDesktop.App.versions.txt
+    ³           ³   
+    ³           ÃÄÄÄdata
+    ³           ³       RuntimeList.xml
+    ³           ³       
+    ³           ÀÄÄÄruntimes
+    ³               ÀÄÄÄwin-x64
+    ³                   ÃÄÄÄlib
+    ³                   ³   ÀÄÄÄnet8.0
+    ³                   ³       ³   Accessibility.dll
+    ³                   ³       ³   DirectWriteForwarder.dll
+    ³                   ³       ³   Microsoft.VisualBasic.dll
+    ³                   ³       ³   Microsoft.VisualBasic.Forms.dll
+    ³                   ³       ³   Microsoft.Win32.Registry.AccessControl.dll
+    ³                   ³       ³   Microsoft.Win32.SystemEvents.dll
+    ³                   ³       ³   Microsoft.WindowsDesktop.App.deps.json
+    ³                   ³       ³   Microsoft.WindowsDesktop.App.runtimeconfig.json
+    ³                   ³       ³   PresentationCore.dll
+    ³                   ³       ³   PresentationFramework-SystemCore.dll
+    ³                   ³       ³   PresentationFramework-SystemData.dll
+    ³                   ³       ³   PresentationFramework-SystemDrawing.dll
+    ³                   ³       ³   PresentationFramework-SystemXml.dll
+    ³                   ³       ³   PresentationFramework-SystemXmlLinq.dll
+    ³                   ³       ³   PresentationFramework.Aero.dll
+    ³                   ³       ³   PresentationFramework.Aero2.dll
+    ³                   ³       ³   PresentationFramework.AeroLite.dll
+    ³                   ³       ³   PresentationFramework.Classic.dll
+    ³                   ³       ³   PresentationFramework.dll
+    ³                   ³       ³   PresentationFramework.Luna.dll
+    ³                   ³       ³   PresentationFramework.Royale.dll
+    ³                   ³       ³   PresentationUI.dll
+    ³                   ³       ³   ReachFramework.dll
+    ³                   ³       ³   System.CodeDom.dll
+    ³                   ³       ³   System.Configuration.ConfigurationManager.dll
+    ³                   ³       ³   System.Design.dll
+    ³                   ³       ³   System.Diagnostics.EventLog.dll
+    ³                   ³       ³   System.Diagnostics.EventLog.Messages.dll
+    ³                   ³       ³   System.Diagnostics.PerformanceCounter.dll
+    ³                   ³       ³   System.DirectoryServices.dll
+    ³                   ³       ³   System.Drawing.Common.dll
+    ³                   ³       ³   System.Drawing.Design.dll
+    ³                   ³       ³   System.Drawing.dll
+    ³                   ³       ³   System.IO.Packaging.dll
+    ³                   ³       ³   System.Printing.dll
+    ³                   ³       ³   System.Resources.Extensions.dll
+    ³                   ³       ³   System.Security.Cryptography.Pkcs.dll
+    ³                   ³       ³   System.Security.Cryptography.ProtectedData.dll
+    ³                   ³       ³   System.Security.Cryptography.Xml.dll
+    ³                   ³       ³   System.Security.Permissions.dll
+    ³                   ³       ³   System.Threading.AccessControl.dll
+    ³                   ³       ³   System.Windows.Controls.Ribbon.dll
+    ³                   ³       ³   System.Windows.Extensions.dll
+    ³                   ³       ³   System.Windows.Forms.Design.dll
+    ³                   ³       ³   System.Windows.Forms.Design.Editors.dll
+    ³                   ³       ³   System.Windows.Forms.dll
+    ³                   ³       ³   System.Windows.Forms.Primitives.dll
+    ³                   ³       ³   System.Windows.Input.Manipulations.dll
+    ³                   ³       ³   System.Windows.Presentation.dll
+    ³                   ³       ³   System.Xaml.dll
+    ³                   ³       ³   UIAutomationClient.dll
+    ³                   ³       ³   UIAutomationClientSideProviders.dll
+    ³                   ³       ³   UIAutomationProvider.dll
+    ³                   ³       ³   UIAutomationTypes.dll
+    ³                   ³       ³   WindowsBase.dll
+    ³                   ³       ³   WindowsFormsIntegration.dll
+    ³                   ³       ³   
+    ³                   ³       ÃÄÄÄcs
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄde
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄes
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄfr
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄit
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄja
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄko
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄpl
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄpt-BR
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄru
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄtr
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÃÄÄÄzh-Hans
+    ³                   ³       ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³       ³       PresentationCore.resources.dll
+    ³                   ³       ³       PresentationFramework.resources.dll
+    ³                   ³       ³       PresentationUI.resources.dll
+    ³                   ³       ³       ReachFramework.resources.dll
+    ³                   ³       ³       System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Design.resources.dll
+    ³                   ³       ³       System.Windows.Forms.Primitives.resources.dll
+    ³                   ³       ³       System.Windows.Forms.resources.dll
+    ³                   ³       ³       System.Windows.Input.Manipulations.resources.dll
+    ³                   ³       ³       System.Xaml.resources.dll
+    ³                   ³       ³       UIAutomationClient.resources.dll
+    ³                   ³       ³       UIAutomationClientSideProviders.resources.dll
+    ³                   ³       ³       UIAutomationProvider.resources.dll
+    ³                   ³       ³       UIAutomationTypes.resources.dll
+    ³                   ³       ³       WindowsBase.resources.dll
+    ³                   ³       ³       WindowsFormsIntegration.resources.dll
+    ³                   ³       ³       
+    ³                   ³       ÀÄÄÄzh-Hant
+    ³                   ³               Microsoft.VisualBasic.Forms.resources.dll
+    ³                   ³               PresentationCore.resources.dll
+    ³                   ³               PresentationFramework.resources.dll
+    ³                   ³               PresentationUI.resources.dll
+    ³                   ³               ReachFramework.resources.dll
+    ³                   ³               System.Windows.Controls.Ribbon.resources.dll
+    ³                   ³               System.Windows.Forms.Design.resources.dll
+    ³                   ³               System.Windows.Forms.Primitives.resources.dll
+    ³                   ³               System.Windows.Forms.resources.dll
+    ³                   ³               System.Windows.Input.Manipulations.resources.dll
+    ³                   ³               System.Xaml.resources.dll
+    ³                   ³               UIAutomationClient.resources.dll
+    ³                   ³               UIAutomationClientSideProviders.resources.dll
+    ³                   ³               UIAutomationProvider.resources.dll
+    ³                   ³               UIAutomationTypes.resources.dll
+    ³                   ³               WindowsBase.resources.dll
+    ³                   ³               WindowsFormsIntegration.resources.dll
+    ³                   ³               
+    ³                   ÀÄÄÄnative
+    ³                           D3DCompiler_47_cor3.dll
+    ³                           PenImc_cor3.dll
+    ³                           PresentationNative_cor3.dll
+    ³                           vcruntime140_cor3.dll
+    ³                           wpfgfx_cor3.dll
+    ³                           
+    ÃÄÄÄSafeLauncher
+    ³   ³   launcher-config.json
+    ³   ³   Program.cs
+    ³   ³   SafeLauncher.csproj
+    ³   ³   
+    ³   ÃÄÄÄbin
+    ³   ³   ÀÄÄÄRelease
+    ³   ³       ÀÄÄÄnet8.0-windows
+    ³   ³           ÀÄÄÄwin-x64
+    ³   ³               ³   Accessibility.dll
+    ³   ³               ³   clretwrc.dll
+    ³   ³               ³   clrgc.dll
+    ³   ³               ³   clrjit.dll
+    ³   ³               ³   coreclr.dll
+    ³   ³               ³   createdump.exe
+    ³   ³               ³   D3DCompiler_47_cor3.dll
+    ³   ³               ³   DirectWriteForwarder.dll
+    ³   ³               ³   hostfxr.dll
+    ³   ³               ³   hostpolicy.dll
+    ³   ³               ³   Microsoft.CSharp.dll
+    ³   ³               ³   Microsoft.DiaSymReader.Native.amd64.dll
+    ³   ³               ³   Microsoft.VisualBasic.Core.dll
+    ³   ³               ³   Microsoft.VisualBasic.dll
+    ³   ³               ³   Microsoft.VisualBasic.Forms.dll
+    ³   ³               ³   Microsoft.Win32.Primitives.dll
+    ³   ³               ³   Microsoft.Win32.Registry.AccessControl.dll
+    ³   ³               ³   Microsoft.Win32.Registry.dll
+    ³   ³               ³   Microsoft.Win32.SystemEvents.dll
+    ³   ³               ³   mscordaccore.dll
+    ³   ³               ³   mscordaccore_amd64_amd64_8.0.23.53103.dll
+    ³   ³               ³   mscordbi.dll
+    ³   ³               ³   mscorlib.dll
+    ³   ³               ³   mscorrc.dll
+    ³   ³               ³   msquic.dll
+    ³   ³               ³   netstandard.dll
+    ³   ³               ³   PenImc_cor3.dll
+    ³   ³               ³   PresentationCore.dll
+    ³   ³               ³   PresentationFramework-SystemCore.dll
+    ³   ³               ³   PresentationFramework-SystemData.dll
+    ³   ³               ³   PresentationFramework-SystemDrawing.dll
+    ³   ³               ³   PresentationFramework-SystemXml.dll
+    ³   ³               ³   PresentationFramework-SystemXmlLinq.dll
+    ³   ³               ³   PresentationFramework.Aero.dll
+    ³   ³               ³   PresentationFramework.Aero2.dll
+    ³   ³               ³   PresentationFramework.AeroLite.dll
+    ³   ³               ³   PresentationFramework.Classic.dll
+    ³   ³               ³   PresentationFramework.dll
+    ³   ³               ³   PresentationFramework.Luna.dll
+    ³   ³               ³   PresentationFramework.Royale.dll
+    ³   ³               ³   PresentationNative_cor3.dll
+    ³   ³               ³   PresentationUI.dll
+    ³   ³               ³   ReachFramework.dll
+    ³   ³               ³   SafeLauncher.deps.json
+    ³   ³               ³   SafeLauncher.dll
+    ³   ³               ³   SafeLauncher.exe
+    ³   ³               ³   SafeLauncher.pdb
+    ³   ³               ³   SafeLauncher.runtimeconfig.json
+    ³   ³               ³   System.AppContext.dll
+    ³   ³               ³   System.Buffers.dll
+    ³   ³               ³   System.CodeDom.dll
+    ³   ³               ³   System.Collections.Concurrent.dll
+    ³   ³               ³   System.Collections.dll
+    ³   ³               ³   System.Collections.Immutable.dll
+    ³   ³               ³   System.Collections.NonGeneric.dll
+    ³   ³               ³   System.Collections.Specialized.dll
+    ³   ³               ³   System.ComponentModel.Annotations.dll
+    ³   ³               ³   System.ComponentModel.DataAnnotations.dll
+    ³   ³               ³   System.ComponentModel.dll
+    ³   ³               ³   System.ComponentModel.EventBasedAsync.dll
+    ³   ³               ³   System.ComponentModel.Primitives.dll
+    ³   ³               ³   System.ComponentModel.TypeConverter.dll
+    ³   ³               ³   System.Configuration.ConfigurationManager.dll
+    ³   ³               ³   System.Configuration.dll
+    ³   ³               ³   System.Console.dll
+    ³   ³               ³   System.Core.dll
+    ³   ³               ³   System.Data.Common.dll
+    ³   ³               ³   System.Data.DataSetExtensions.dll
+    ³   ³               ³   System.Data.dll
+    ³   ³               ³   System.Design.dll
+    ³   ³               ³   System.Diagnostics.Contracts.dll
+    ³   ³               ³   System.Diagnostics.Debug.dll
+    ³   ³               ³   System.Diagnostics.DiagnosticSource.dll
+    ³   ³               ³   System.Diagnostics.EventLog.dll
+    ³   ³               ³   System.Diagnostics.EventLog.Messages.dll
+    ³   ³               ³   System.Diagnostics.FileVersionInfo.dll
+    ³   ³               ³   System.Diagnostics.PerformanceCounter.dll
+    ³   ³               ³   System.Diagnostics.Process.dll
+    ³   ³               ³   System.Diagnostics.StackTrace.dll
+    ³   ³               ³   System.Diagnostics.TextWriterTraceListener.dll
+    ³   ³               ³   System.Diagnostics.Tools.dll
+    ³   ³               ³   System.Diagnostics.TraceSource.dll
+    ³   ³               ³   System.Diagnostics.Tracing.dll
+    ³   ³               ³   System.DirectoryServices.dll
+    ³   ³               ³   System.dll
+    ³   ³               ³   System.Drawing.Common.dll
+    ³   ³               ³   System.Drawing.Design.dll
+    ³   ³               ³   System.Drawing.dll
+    ³   ³               ³   System.Drawing.Primitives.dll
+    ³   ³               ³   System.Dynamic.Runtime.dll
+    ³   ³               ³   System.Formats.Asn1.dll
+    ³   ³               ³   System.Formats.Tar.dll
+    ³   ³               ³   System.Globalization.Calendars.dll
+    ³   ³               ³   System.Globalization.dll
+    ³   ³               ³   System.Globalization.Extensions.dll
+    ³   ³               ³   System.IO.Compression.Brotli.dll
+    ³   ³               ³   System.IO.Compression.dll
+    ³   ³               ³   System.IO.Compression.FileSystem.dll
+    ³   ³               ³   System.IO.Compression.Native.dll
+    ³   ³               ³   System.IO.Compression.ZipFile.dll
+    ³   ³               ³   System.IO.dll
+    ³   ³               ³   System.IO.FileSystem.AccessControl.dll
+    ³   ³               ³   System.IO.FileSystem.dll
+    ³   ³               ³   System.IO.FileSystem.DriveInfo.dll
+    ³   ³               ³   System.IO.FileSystem.Primitives.dll
+    ³   ³               ³   System.IO.FileSystem.Watcher.dll
+    ³   ³               ³   System.IO.IsolatedStorage.dll
+    ³   ³               ³   System.IO.MemoryMappedFiles.dll
+    ³   ³               ³   System.IO.Packaging.dll
+    ³   ³               ³   System.IO.Pipes.AccessControl.dll
+    ³   ³               ³   System.IO.Pipes.dll
+    ³   ³               ³   System.IO.UnmanagedMemoryStream.dll
+    ³   ³               ³   System.Linq.dll
+    ³   ³               ³   System.Linq.Expressions.dll
+    ³   ³               ³   System.Linq.Parallel.dll
+    ³   ³               ³   System.Linq.Queryable.dll
+    ³   ³               ³   System.Memory.dll
+    ³   ³               ³   System.Net.dll
+    ³   ³               ³   System.Net.Http.dll
+    ³   ³               ³   System.Net.Http.Json.dll
+    ³   ³               ³   System.Net.HttpListener.dll
+    ³   ³               ³   System.Net.Mail.dll
+    ³   ³               ³   System.Net.NameResolution.dll
+    ³   ³               ³   System.Net.NetworkInformation.dll
+    ³   ³               ³   System.Net.Ping.dll
+    ³   ³               ³   System.Net.Primitives.dll
+    ³   ³               ³   System.Net.Quic.dll
+    ³   ³               ³   System.Net.Requests.dll
+    ³   ³               ³   System.Net.Security.dll
+    ³   ³               ³   System.Net.ServicePoint.dll
+    ³   ³               ³   System.Net.Sockets.dll
+    ³   ³               ³   System.Net.WebClient.dll
+    ³   ³               ³   System.Net.WebHeaderCollection.dll
+    ³   ³               ³   System.Net.WebProxy.dll
+    ³   ³               ³   System.Net.WebSockets.Client.dll
+    ³   ³               ³   System.Net.WebSockets.dll
+    ³   ³               ³   System.Numerics.dll
+    ³   ³               ³   System.Numerics.Vectors.dll
+    ³   ³               ³   System.ObjectModel.dll
+    ³   ³               ³   System.Printing.dll
+    ³   ³               ³   System.Private.CoreLib.dll
+    ³   ³               ³   System.Private.DataContractSerialization.dll
+    ³   ³               ³   System.Private.Uri.dll
+    ³   ³               ³   System.Private.Xml.dll
+    ³   ³               ³   System.Private.Xml.Linq.dll
+    ³   ³               ³   System.Reflection.DispatchProxy.dll
+    ³   ³               ³   System.Reflection.dll
+    ³   ³               ³   System.Reflection.Emit.dll
+    ³   ³               ³   System.Reflection.Emit.ILGeneration.dll
+    ³   ³               ³   System.Reflection.Emit.Lightweight.dll
+    ³   ³               ³   System.Reflection.Extensions.dll
+    ³   ³               ³   System.Reflection.Metadata.dll
+    ³   ³               ³   System.Reflection.Primitives.dll
+    ³   ³               ³   System.Reflection.TypeExtensions.dll
+    ³   ³               ³   System.Resources.Extensions.dll
+    ³   ³               ³   System.Resources.Reader.dll
+    ³   ³               ³   System.Resources.ResourceManager.dll
+    ³   ³               ³   System.Resources.Writer.dll
+    ³   ³               ³   System.Runtime.CompilerServices.Unsafe.dll
+    ³   ³               ³   System.Runtime.CompilerServices.VisualC.dll
+    ³   ³               ³   System.Runtime.dll
+    ³   ³               ³   System.Runtime.Extensions.dll
+    ³   ³               ³   System.Runtime.Handles.dll
+    ³   ³               ³   System.Runtime.InteropServices.dll
+    ³   ³               ³   System.Runtime.InteropServices.JavaScript.dll
+    ³   ³               ³   System.Runtime.InteropServices.RuntimeInformation.dll
+    ³   ³               ³   System.Runtime.Intrinsics.dll
+    ³   ³               ³   System.Runtime.Loader.dll
+    ³   ³               ³   System.Runtime.Numerics.dll
+    ³   ³               ³   System.Runtime.Serialization.dll
+    ³   ³               ³   System.Runtime.Serialization.Formatters.dll
+    ³   ³               ³   System.Runtime.Serialization.Json.dll
+    ³   ³               ³   System.Runtime.Serialization.Primitives.dll
+    ³   ³               ³   System.Runtime.Serialization.Xml.dll
+    ³   ³               ³   System.Security.AccessControl.dll
+    ³   ³               ³   System.Security.Claims.dll
+    ³   ³               ³   System.Security.Cryptography.Algorithms.dll
+    ³   ³               ³   System.Security.Cryptography.Cng.dll
+    ³   ³               ³   System.Security.Cryptography.Csp.dll
+    ³   ³               ³   System.Security.Cryptography.dll
+    ³   ³               ³   System.Security.Cryptography.Encoding.dll
+    ³   ³               ³   System.Security.Cryptography.OpenSsl.dll
+    ³   ³               ³   System.Security.Cryptography.Pkcs.dll
+    ³   ³               ³   System.Security.Cryptography.Primitives.dll
+    ³   ³               ³   System.Security.Cryptography.ProtectedData.dll
+    ³   ³               ³   System.Security.Cryptography.X509Certificates.dll
+    ³   ³               ³   System.Security.Cryptography.Xml.dll
+    ³   ³               ³   System.Security.dll
+    ³   ³               ³   System.Security.Permissions.dll
+    ³   ³               ³   System.Security.Principal.dll
+    ³   ³               ³   System.Security.Principal.Windows.dll
+    ³   ³               ³   System.Security.SecureString.dll
+    ³   ³               ³   System.ServiceModel.Web.dll
+    ³   ³               ³   System.ServiceProcess.dll
+    ³   ³               ³   System.Text.Encoding.CodePages.dll
+    ³   ³               ³   System.Text.Encoding.dll
+    ³   ³               ³   System.Text.Encoding.Extensions.dll
+    ³   ³               ³   System.Text.Encodings.Web.dll
+    ³   ³               ³   System.Text.Json.dll
+    ³   ³               ³   System.Text.RegularExpressions.dll
+    ³   ³               ³   System.Threading.AccessControl.dll
+    ³   ³               ³   System.Threading.Channels.dll
+    ³   ³               ³   System.Threading.dll
+    ³   ³               ³   System.Threading.Overlapped.dll
+    ³   ³               ³   System.Threading.Tasks.Dataflow.dll
+    ³   ³               ³   System.Threading.Tasks.dll
+    ³   ³               ³   System.Threading.Tasks.Extensions.dll
+    ³   ³               ³   System.Threading.Tasks.Parallel.dll
+    ³   ³               ³   System.Threading.Thread.dll
+    ³   ³               ³   System.Threading.ThreadPool.dll
+    ³   ³               ³   System.Threading.Timer.dll
+    ³   ³               ³   System.Transactions.dll
+    ³   ³               ³   System.Transactions.Local.dll
+    ³   ³               ³   System.ValueTuple.dll
+    ³   ³               ³   System.Web.dll
+    ³   ³               ³   System.Web.HttpUtility.dll
+    ³   ³               ³   System.Windows.Controls.Ribbon.dll
+    ³   ³               ³   System.Windows.dll
+    ³   ³               ³   System.Windows.Extensions.dll
+    ³   ³               ³   System.Windows.Forms.Design.dll
+    ³   ³               ³   System.Windows.Forms.Design.Editors.dll
+    ³   ³               ³   System.Windows.Forms.dll
+    ³   ³               ³   System.Windows.Forms.Primitives.dll
+    ³   ³               ³   System.Windows.Input.Manipulations.dll
+    ³   ³               ³   System.Windows.Presentation.dll
+    ³   ³               ³   System.Xaml.dll
+    ³   ³               ³   System.Xml.dll
+    ³   ³               ³   System.Xml.Linq.dll
+    ³   ³               ³   System.Xml.ReaderWriter.dll
+    ³   ³               ³   System.Xml.Serialization.dll
+    ³   ³               ³   System.Xml.XDocument.dll
+    ³   ³               ³   System.Xml.XmlDocument.dll
+    ³   ³               ³   System.Xml.XmlSerializer.dll
+    ³   ³               ³   System.Xml.XPath.dll
+    ³   ³               ³   System.Xml.XPath.XDocument.dll
+    ³   ³               ³   UIAutomationClient.dll
+    ³   ³               ³   UIAutomationClientSideProviders.dll
+    ³   ³               ³   UIAutomationProvider.dll
+    ³   ³               ³   UIAutomationTypes.dll
+    ³   ³               ³   vcruntime140_cor3.dll
+    ³   ³               ³   WindowsBase.dll
+    ³   ³               ³   WindowsFormsIntegration.dll
+    ³   ³               ³   wpfgfx_cor3.dll
+    ³   ³               ³   
+    ³   ³               ÃÄÄÄcs
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄde
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄes
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄfr
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄit
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄja
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄko
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄpl
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄpt-BR
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄpublish
+    ³   ³               ³       D3DCompiler_47_cor3.dll
+    ³   ³               ³       PenImc_cor3.dll
+    ³   ³               ³       PresentationNative_cor3.dll
+    ³   ³               ³       SafeLauncher.exe
+    ³   ³               ³       SafeLauncher.pdb
+    ³   ³               ³       vcruntime140_cor3.dll
+    ³   ³               ³       wpfgfx_cor3.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄru
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄtr
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÃÄÄÄzh-Hans
+    ³   ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³               ³       PresentationCore.resources.dll
+    ³   ³               ³       PresentationFramework.resources.dll
+    ³   ³               ³       PresentationUI.resources.dll
+    ³   ³               ³       ReachFramework.resources.dll
+    ³   ³               ³       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³               ³       System.Windows.Forms.Design.resources.dll
+    ³   ³               ³       System.Windows.Forms.Primitives.resources.dll
+    ³   ³               ³       System.Windows.Forms.resources.dll
+    ³   ³               ³       System.Windows.Input.Manipulations.resources.dll
+    ³   ³               ³       System.Xaml.resources.dll
+    ³   ³               ³       UIAutomationClient.resources.dll
+    ³   ³               ³       UIAutomationClientSideProviders.resources.dll
+    ³   ³               ³       UIAutomationProvider.resources.dll
+    ³   ³               ³       UIAutomationTypes.resources.dll
+    ³   ³               ³       WindowsBase.resources.dll
+    ³   ³               ³       WindowsFormsIntegration.resources.dll
+    ³   ³               ³       
+    ³   ³               ÀÄÄÄzh-Hant
+    ³   ³                       Microsoft.VisualBasic.Forms.resources.dll
+    ³   ³                       PresentationCore.resources.dll
+    ³   ³                       PresentationFramework.resources.dll
+    ³   ³                       PresentationUI.resources.dll
+    ³   ³                       ReachFramework.resources.dll
+    ³   ³                       System.Windows.Controls.Ribbon.resources.dll
+    ³   ³                       System.Windows.Forms.Design.resources.dll
+    ³   ³                       System.Windows.Forms.Primitives.resources.dll
+    ³   ³                       System.Windows.Forms.resources.dll
+    ³   ³                       System.Windows.Input.Manipulations.resources.dll
+    ³   ³                       System.Xaml.resources.dll
+    ³   ³                       UIAutomationClient.resources.dll
+    ³   ³                       UIAutomationClientSideProviders.resources.dll
+    ³   ³                       UIAutomationProvider.resources.dll
+    ³   ³                       UIAutomationTypes.resources.dll
+    ³   ³                       WindowsBase.resources.dll
+    ³   ³                       WindowsFormsIntegration.resources.dll
+    ³   ³                       
+    ³   ÃÄÄÄGenerated
+    ³   ³       LauncherConfig.g.cs
+    ³   ³       LauncherOutput.cmd
+    ³   ³       
+    ³   ÃÄÄÄimg
+    ³   ³       Safe_Launcher.ico
+    ³   ³       Safe_Launcher_16.png
+    ³   ³       Safe_Launcher_24.png
+    ³   ³       Safe_Launcher_256.png
+    ³   ³       Safe_Launcher_32.png
+    ³   ³       
+    ³   ÃÄÄÄobj
+    ³   ³   ³   project.assets.json
+    ³   ³   ³   project.nuget.cache
+    ³   ³   ³   SafeLauncher.csproj.nuget.dgspec.json
+    ³   ³   ³   SafeLauncher.csproj.nuget.g.props
+    ³   ³   ³   SafeLauncher.csproj.nuget.g.targets
+    ³   ³   ³   
+    ³   ³   ÀÄÄÄRelease
+    ³   ³       ÀÄÄÄnet8.0-windows
+    ³   ³           ÀÄÄÄwin-x64
+    ³   ³               ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    ³   ³               ³   PublishOutputs.428454a628.txt
+    ³   ³               ³   SafeLauncher.AssemblyInfo.cs
+    ³   ³               ³   SafeLauncher.AssemblyInfoInputs.cache
+    ³   ³               ³   SafeLauncher.assets.cache
+    ³   ³               ³   SafeLauncher.csproj.CopyComplete
+    ³   ³               ³   SafeLauncher.csproj.CoreCompileInputs.cache
+    ³   ³               ³   SafeLauncher.csproj.FileListAbsolute.txt
+    ³   ³               ³   SafeLauncher.deps.json
+    ³   ³               ³   SafeLauncher.dll
+    ³   ³               ³   SafeLauncher.genbundle.cache
+    ³   ³               ³   SafeLauncher.GeneratedMSBuildEditorConfig.editorconfig
+    ³   ³               ³   SafeLauncher.genpublishdeps.cache
+    ³   ³               ³   SafeLauncher.genruntimeconfig.cache
+    ³   ³               ³   SafeLauncher.GlobalUsings.g.cs
+    ³   ³               ³   SafeLauncher.pdb
+    ³   ³               ³   SafeLauncher.sourcelink.json
+    ³   ³               ³   singlefilehost.exe
+    ³   ³               ³   
+    ³   ³               ÃÄÄÄref
+    ³   ³               ³       SafeLauncher.dll
+    ³   ³               ³       
+    ³   ³               ÀÄÄÄrefint
+    ³   ³                       SafeLauncher.dll
+    ³   ³                       
+    ³   ÀÄÄÄtools
+    ³           build.bat
+    ³           clear_build.bat
+    ³           generate-launcher-config.ps1
+    ³           provision-credential.bat
+    ³           
+    ÀÄÄÄSafeLauncherAdmin
+        ³   BuildOverlay.cs
+        ³   BuildResultDialog.cs
+        ³   FindReplaceBar.cs
+        ³   GoToLineDialog.cs
+        ³   LineNumberGutter.cs
+        ³   MainForm.cs
+        ³   ModernCheckBox.cs
+        ³   PickerButton.cs
+        ³   Program.cs
+        ³   Prompt.cs
+        ³   RoundedButton.cs
+        ³   RoundedInputPanel.cs
+        ³   SafeLauncherAdmin.csproj
+        ³   
+        ÃÄÄÄbin
+        ³   ÀÄÄÄRelease
+        ³       ÀÄÄÄnet8.0-windows
+        ³           ÀÄÄÄwin-x64
+        ³               ³   Accessibility.dll
+        ³               ³   clretwrc.dll
+        ³               ³   clrgc.dll
+        ³               ³   clrjit.dll
+        ³               ³   coreclr.dll
+        ³               ³   createdump.exe
+        ³               ³   D3DCompiler_47_cor3.dll
+        ³               ³   DirectWriteForwarder.dll
+        ³               ³   hostfxr.dll
+        ³               ³   hostpolicy.dll
+        ³               ³   Microsoft.CSharp.dll
+        ³               ³   Microsoft.DiaSymReader.Native.amd64.dll
+        ³               ³   Microsoft.VisualBasic.Core.dll
+        ³               ³   Microsoft.VisualBasic.dll
+        ³               ³   Microsoft.VisualBasic.Forms.dll
+        ³               ³   Microsoft.Win32.Primitives.dll
+        ³               ³   Microsoft.Win32.Registry.AccessControl.dll
+        ³               ³   Microsoft.Win32.Registry.dll
+        ³               ³   Microsoft.Win32.SystemEvents.dll
+        ³               ³   mscordaccore.dll
+        ³               ³   mscordaccore_amd64_amd64_8.0.23.53103.dll
+        ³               ³   mscordbi.dll
+        ³               ³   mscorlib.dll
+        ³               ³   mscorrc.dll
+        ³               ³   msquic.dll
+        ³               ³   netstandard.dll
+        ³               ³   PenImc_cor3.dll
+        ³               ³   PresentationCore.dll
+        ³               ³   PresentationFramework-SystemCore.dll
+        ³               ³   PresentationFramework-SystemData.dll
+        ³               ³   PresentationFramework-SystemDrawing.dll
+        ³               ³   PresentationFramework-SystemXml.dll
+        ³               ³   PresentationFramework-SystemXmlLinq.dll
+        ³               ³   PresentationFramework.Aero.dll
+        ³               ³   PresentationFramework.Aero2.dll
+        ³               ³   PresentationFramework.AeroLite.dll
+        ³               ³   PresentationFramework.Classic.dll
+        ³               ³   PresentationFramework.dll
+        ³               ³   PresentationFramework.Luna.dll
+        ³               ³   PresentationFramework.Royale.dll
+        ³               ³   PresentationNative_cor3.dll
+        ³               ³   PresentationUI.dll
+        ³               ³   ReachFramework.dll
+        ³               ³   SafeLauncherAdmin.deps.json
+        ³               ³   SafeLauncherAdmin.dll
+        ³               ³   SafeLauncherAdmin.exe
+        ³               ³   SafeLauncherAdmin.pdb
+        ³               ³   SafeLauncherAdmin.runtimeconfig.json
+        ³               ³   System.AppContext.dll
+        ³               ³   System.Buffers.dll
+        ³               ³   System.CodeDom.dll
+        ³               ³   System.Collections.Concurrent.dll
+        ³               ³   System.Collections.dll
+        ³               ³   System.Collections.Immutable.dll
+        ³               ³   System.Collections.NonGeneric.dll
+        ³               ³   System.Collections.Specialized.dll
+        ³               ³   System.ComponentModel.Annotations.dll
+        ³               ³   System.ComponentModel.DataAnnotations.dll
+        ³               ³   System.ComponentModel.dll
+        ³               ³   System.ComponentModel.EventBasedAsync.dll
+        ³               ³   System.ComponentModel.Primitives.dll
+        ³               ³   System.ComponentModel.TypeConverter.dll
+        ³               ³   System.Configuration.ConfigurationManager.dll
+        ³               ³   System.Configuration.dll
+        ³               ³   System.Console.dll
+        ³               ³   System.Core.dll
+        ³               ³   System.Data.Common.dll
+        ³               ³   System.Data.DataSetExtensions.dll
+        ³               ³   System.Data.dll
+        ³               ³   System.Design.dll
+        ³               ³   System.Diagnostics.Contracts.dll
+        ³               ³   System.Diagnostics.Debug.dll
+        ³               ³   System.Diagnostics.DiagnosticSource.dll
+        ³               ³   System.Diagnostics.EventLog.dll
+        ³               ³   System.Diagnostics.EventLog.Messages.dll
+        ³               ³   System.Diagnostics.FileVersionInfo.dll
+        ³               ³   System.Diagnostics.PerformanceCounter.dll
+        ³               ³   System.Diagnostics.Process.dll
+        ³               ³   System.Diagnostics.StackTrace.dll
+        ³               ³   System.Diagnostics.TextWriterTraceListener.dll
+        ³               ³   System.Diagnostics.Tools.dll
+        ³               ³   System.Diagnostics.TraceSource.dll
+        ³               ³   System.Diagnostics.Tracing.dll
+        ³               ³   System.DirectoryServices.dll
+        ³               ³   System.dll
+        ³               ³   System.Drawing.Common.dll
+        ³               ³   System.Drawing.Design.dll
+        ³               ³   System.Drawing.dll
+        ³               ³   System.Drawing.Primitives.dll
+        ³               ³   System.Dynamic.Runtime.dll
+        ³               ³   System.Formats.Asn1.dll
+        ³               ³   System.Formats.Tar.dll
+        ³               ³   System.Globalization.Calendars.dll
+        ³               ³   System.Globalization.dll
+        ³               ³   System.Globalization.Extensions.dll
+        ³               ³   System.IO.Compression.Brotli.dll
+        ³               ³   System.IO.Compression.dll
+        ³               ³   System.IO.Compression.FileSystem.dll
+        ³               ³   System.IO.Compression.Native.dll
+        ³               ³   System.IO.Compression.ZipFile.dll
+        ³               ³   System.IO.dll
+        ³               ³   System.IO.FileSystem.AccessControl.dll
+        ³               ³   System.IO.FileSystem.dll
+        ³               ³   System.IO.FileSystem.DriveInfo.dll
+        ³               ³   System.IO.FileSystem.Primitives.dll
+        ³               ³   System.IO.FileSystem.Watcher.dll
+        ³               ³   System.IO.IsolatedStorage.dll
+        ³               ³   System.IO.MemoryMappedFiles.dll
+        ³               ³   System.IO.Packaging.dll
+        ³               ³   System.IO.Pipes.AccessControl.dll
+        ³               ³   System.IO.Pipes.dll
+        ³               ³   System.IO.UnmanagedMemoryStream.dll
+        ³               ³   System.Linq.dll
+        ³               ³   System.Linq.Expressions.dll
+        ³               ³   System.Linq.Parallel.dll
+        ³               ³   System.Linq.Queryable.dll
+        ³               ³   System.Memory.dll
+        ³               ³   System.Net.dll
+        ³               ³   System.Net.Http.dll
+        ³               ³   System.Net.Http.Json.dll
+        ³               ³   System.Net.HttpListener.dll
+        ³               ³   System.Net.Mail.dll
+        ³               ³   System.Net.NameResolution.dll
+        ³               ³   System.Net.NetworkInformation.dll
+        ³               ³   System.Net.Ping.dll
+        ³               ³   System.Net.Primitives.dll
+        ³               ³   System.Net.Quic.dll
+        ³               ³   System.Net.Requests.dll
+        ³               ³   System.Net.Security.dll
+        ³               ³   System.Net.ServicePoint.dll
+        ³               ³   System.Net.Sockets.dll
+        ³               ³   System.Net.WebClient.dll
+        ³               ³   System.Net.WebHeaderCollection.dll
+        ³               ³   System.Net.WebProxy.dll
+        ³               ³   System.Net.WebSockets.Client.dll
+        ³               ³   System.Net.WebSockets.dll
+        ³               ³   System.Numerics.dll
+        ³               ³   System.Numerics.Vectors.dll
+        ³               ³   System.ObjectModel.dll
+        ³               ³   System.Printing.dll
+        ³               ³   System.Private.CoreLib.dll
+        ³               ³   System.Private.DataContractSerialization.dll
+        ³               ³   System.Private.Uri.dll
+        ³               ³   System.Private.Xml.dll
+        ³               ³   System.Private.Xml.Linq.dll
+        ³               ³   System.Reflection.DispatchProxy.dll
+        ³               ³   System.Reflection.dll
+        ³               ³   System.Reflection.Emit.dll
+        ³               ³   System.Reflection.Emit.ILGeneration.dll
+        ³               ³   System.Reflection.Emit.Lightweight.dll
+        ³               ³   System.Reflection.Extensions.dll
+        ³               ³   System.Reflection.Metadata.dll
+        ³               ³   System.Reflection.Primitives.dll
+        ³               ³   System.Reflection.TypeExtensions.dll
+        ³               ³   System.Resources.Extensions.dll
+        ³               ³   System.Resources.Reader.dll
+        ³               ³   System.Resources.ResourceManager.dll
+        ³               ³   System.Resources.Writer.dll
+        ³               ³   System.Runtime.CompilerServices.Unsafe.dll
+        ³               ³   System.Runtime.CompilerServices.VisualC.dll
+        ³               ³   System.Runtime.dll
+        ³               ³   System.Runtime.Extensions.dll
+        ³               ³   System.Runtime.Handles.dll
+        ³               ³   System.Runtime.InteropServices.dll
+        ³               ³   System.Runtime.InteropServices.JavaScript.dll
+        ³               ³   System.Runtime.InteropServices.RuntimeInformation.dll
+        ³               ³   System.Runtime.Intrinsics.dll
+        ³               ³   System.Runtime.Loader.dll
+        ³               ³   System.Runtime.Numerics.dll
+        ³               ³   System.Runtime.Serialization.dll
+        ³               ³   System.Runtime.Serialization.Formatters.dll
+        ³               ³   System.Runtime.Serialization.Json.dll
+        ³               ³   System.Runtime.Serialization.Primitives.dll
+        ³               ³   System.Runtime.Serialization.Xml.dll
+        ³               ³   System.Security.AccessControl.dll
+        ³               ³   System.Security.Claims.dll
+        ³               ³   System.Security.Cryptography.Algorithms.dll
+        ³               ³   System.Security.Cryptography.Cng.dll
+        ³               ³   System.Security.Cryptography.Csp.dll
+        ³               ³   System.Security.Cryptography.dll
+        ³               ³   System.Security.Cryptography.Encoding.dll
+        ³               ³   System.Security.Cryptography.OpenSsl.dll
+        ³               ³   System.Security.Cryptography.Pkcs.dll
+        ³               ³   System.Security.Cryptography.Primitives.dll
+        ³               ³   System.Security.Cryptography.ProtectedData.dll
+        ³               ³   System.Security.Cryptography.X509Certificates.dll
+        ³               ³   System.Security.Cryptography.Xml.dll
+        ³               ³   System.Security.dll
+        ³               ³   System.Security.Permissions.dll
+        ³               ³   System.Security.Principal.dll
+        ³               ³   System.Security.Principal.Windows.dll
+        ³               ³   System.Security.SecureString.dll
+        ³               ³   System.ServiceModel.Web.dll
+        ³               ³   System.ServiceProcess.dll
+        ³               ³   System.Text.Encoding.CodePages.dll
+        ³               ³   System.Text.Encoding.dll
+        ³               ³   System.Text.Encoding.Extensions.dll
+        ³               ³   System.Text.Encodings.Web.dll
+        ³               ³   System.Text.Json.dll
+        ³               ³   System.Text.RegularExpressions.dll
+        ³               ³   System.Threading.AccessControl.dll
+        ³               ³   System.Threading.Channels.dll
+        ³               ³   System.Threading.dll
+        ³               ³   System.Threading.Overlapped.dll
+        ³               ³   System.Threading.Tasks.Dataflow.dll
+        ³               ³   System.Threading.Tasks.dll
+        ³               ³   System.Threading.Tasks.Extensions.dll
+        ³               ³   System.Threading.Tasks.Parallel.dll
+        ³               ³   System.Threading.Thread.dll
+        ³               ³   System.Threading.ThreadPool.dll
+        ³               ³   System.Threading.Timer.dll
+        ³               ³   System.Transactions.dll
+        ³               ³   System.Transactions.Local.dll
+        ³               ³   System.ValueTuple.dll
+        ³               ³   System.Web.dll
+        ³               ³   System.Web.HttpUtility.dll
+        ³               ³   System.Windows.Controls.Ribbon.dll
+        ³               ³   System.Windows.dll
+        ³               ³   System.Windows.Extensions.dll
+        ³               ³   System.Windows.Forms.Design.dll
+        ³               ³   System.Windows.Forms.Design.Editors.dll
+        ³               ³   System.Windows.Forms.dll
+        ³               ³   System.Windows.Forms.Primitives.dll
+        ³               ³   System.Windows.Input.Manipulations.dll
+        ³               ³   System.Windows.Presentation.dll
+        ³               ³   System.Xaml.dll
+        ³               ³   System.Xml.dll
+        ³               ³   System.Xml.Linq.dll
+        ³               ³   System.Xml.ReaderWriter.dll
+        ³               ³   System.Xml.Serialization.dll
+        ³               ³   System.Xml.XDocument.dll
+        ³               ³   System.Xml.XmlDocument.dll
+        ³               ³   System.Xml.XmlSerializer.dll
+        ³               ³   System.Xml.XPath.dll
+        ³               ³   System.Xml.XPath.XDocument.dll
+        ³               ³   UIAutomationClient.dll
+        ³               ³   UIAutomationClientSideProviders.dll
+        ³               ³   UIAutomationProvider.dll
+        ³               ³   UIAutomationTypes.dll
+        ³               ³   vcruntime140_cor3.dll
+        ³               ³   WindowsBase.dll
+        ³               ³   WindowsFormsIntegration.dll
+        ³               ³   wpfgfx_cor3.dll
+        ³               ³   
+        ³               ÃÄÄÄcs
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄde
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄes
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄfr
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄit
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄja
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄko
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄpl
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄpt-BR
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄpublish
+        ³               ³       D3DCompiler_47_cor3.dll
+        ³               ³       PenImc_cor3.dll
+        ³               ³       PresentationNative_cor3.dll
+        ³               ³       SafeLauncherAdmin.exe
+        ³               ³       SafeLauncherAdmin.pdb
+        ³               ³       vcruntime140_cor3.dll
+        ³               ³       wpfgfx_cor3.dll
+        ³               ³       
+        ³               ÃÄÄÄru
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄtr
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÃÄÄÄzh-Hans
+        ³               ³       Microsoft.VisualBasic.Forms.resources.dll
+        ³               ³       PresentationCore.resources.dll
+        ³               ³       PresentationFramework.resources.dll
+        ³               ³       PresentationUI.resources.dll
+        ³               ³       ReachFramework.resources.dll
+        ³               ³       System.Windows.Controls.Ribbon.resources.dll
+        ³               ³       System.Windows.Forms.Design.resources.dll
+        ³               ³       System.Windows.Forms.Primitives.resources.dll
+        ³               ³       System.Windows.Forms.resources.dll
+        ³               ³       System.Windows.Input.Manipulations.resources.dll
+        ³               ³       System.Xaml.resources.dll
+        ³               ³       UIAutomationClient.resources.dll
+        ³               ³       UIAutomationClientSideProviders.resources.dll
+        ³               ³       UIAutomationProvider.resources.dll
+        ³               ³       UIAutomationTypes.resources.dll
+        ³               ³       WindowsBase.resources.dll
+        ³               ³       WindowsFormsIntegration.resources.dll
+        ³               ³       
+        ³               ÀÄÄÄzh-Hant
+        ³                       Microsoft.VisualBasic.Forms.resources.dll
+        ³                       PresentationCore.resources.dll
+        ³                       PresentationFramework.resources.dll
+        ³                       PresentationUI.resources.dll
+        ³                       ReachFramework.resources.dll
+        ³                       System.Windows.Controls.Ribbon.resources.dll
+        ³                       System.Windows.Forms.Design.resources.dll
+        ³                       System.Windows.Forms.Primitives.resources.dll
+        ³                       System.Windows.Forms.resources.dll
+        ³                       System.Windows.Input.Manipulations.resources.dll
+        ³                       System.Xaml.resources.dll
+        ³                       UIAutomationClient.resources.dll
+        ³                       UIAutomationClientSideProviders.resources.dll
+        ³                       UIAutomationProvider.resources.dll
+        ³                       UIAutomationTypes.resources.dll
+        ³                       WindowsBase.resources.dll
+        ³                       WindowsFormsIntegration.resources.dll
+        ³                       
+        ÃÄÄÄobj
+        ³   ³   project.assets.json
+        ³   ³   project.nuget.cache
+        ³   ³   SafeLauncherAdmin.csproj.nuget.dgspec.json
+        ³   ³   SafeLauncherAdmin.csproj.nuget.g.props
+        ³   ³   SafeLauncherAdmin.csproj.nuget.g.targets
+        ³   ³   
+        ³   ÀÄÄÄRelease
+        ³       ÀÄÄÄnet8.0-windows
+        ³           ÀÄÄÄwin-x64
+        ³               ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+        ³               ³   PublishOutputs.27795e64df.txt
+        ³               ³   SafeLauncherAdmin.AssemblyInfo.cs
+        ³               ³   SafeLauncherAdmin.AssemblyInfoInputs.cache
+        ³               ³   SafeLauncherAdmin.assets.cache
+        ³               ³   SafeLauncherAdmin.csproj.CopyComplete
+        ³               ³   SafeLauncherAdmin.csproj.CoreCompileInputs.cache
+        ³               ³   SafeLauncherAdmin.csproj.FileListAbsolute.txt
+        ³               ³   SafeLauncherAdmin.deps.json
+        ³               ³   SafeLauncherAdmin.dll
+        ³               ³   SafeLauncherAdmin.genbundle.cache
+        ³               ³   SafeLauncherAdmin.GeneratedMSBuildEditorConfig.editorconfig
+        ³               ³   SafeLauncherAdmin.genpublishdeps.cache
+        ³               ³   SafeLauncherAdmin.genruntimeconfig.cache
+        ³               ³   SafeLauncherAdmin.GlobalUsings.g.cs
+        ³               ³   SafeLauncherAdmin.pdb
+        ³               ³   SafeLauncherAdmin.sourcelink.json
+        ³               ³   singlefilehost.exe
+        ³               ³   
+        ³               ÃÄÄÄref
+        ³               ³       SafeLauncherAdmin.dll
+        ³               ³       
+        ³               ÀÄÄÄrefint
+        ³                       SafeLauncherAdmin.dll
+        ³                       
+        ÀÄÄÄtools
+                build.bat
+                clear_build.bat
+                

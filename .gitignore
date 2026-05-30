@@ -49,3 +49,7 @@ Desktop.ini
 # Local package transfer/export scratch files
 exports/
 imports/
+
+# Offline NuGet package cache required for offline builds
+!src/packages/
+!src/packages/**
