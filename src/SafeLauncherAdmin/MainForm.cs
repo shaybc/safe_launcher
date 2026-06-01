@@ -44,6 +44,7 @@ public sealed class MainForm : Form
     private readonly TextBox packageNotesText = new();
     private readonly TextBox launcherExeText = new();
     private readonly TextBox launcherIconFileText = new();
+    private readonly ModernCheckBox hideLauncherConsoleCheck = new();
     private readonly TextBox domainText = new();
     private readonly TextBox userNameText = new();
     private readonly TextBox credentialTargetText = new();
@@ -87,6 +88,9 @@ public sealed class MainForm : Form
     private const int EM_SETSCROLLPOS = WM_USER + 222;
     private const int EM_SETUNDOLIMIT = WM_USER + 146;
     private const int UndoStackDepth  = 1000;
+    private const string DefaultLauncherIconFileName = "default_icon.ico";
+    private const string DefaultSplashImageFileName = "default_splash.png";
+    private const int DefaultSplashMinimumSeconds = 2;
 
     public MainForm()
     {
@@ -1000,6 +1004,7 @@ public sealed class MainForm : Form
         AddSectionHeader(form, "LAUNCHER");
         AddFieldRow(form, "Package folder", packageNameText, "Launcher EXE name", launcherExeText);
         AddFieldFullRow(form, "Notes (optional description)", packageNotesText);
+        AddCheckFullRow(form, hideLauncherConsoleCheck, "Hide launcher CMD window");
 
         // ── Section: Restricted User ─────────────────────────────────────
         AddSectionHeader(form, "RESTRICTED USER");
@@ -1159,6 +1164,7 @@ public sealed class MainForm : Form
         SetHelp(launcherExeText, "Output EXE name copied to dist under this config package folder after build. Use a stable admin-chosen .exe name.");
         SetHelp(launcherIconFileText, "Optional .ico file used as the generated launcher's Windows EXE icon. Relative paths are resolved from the config package folder.");
         SetHelp(browseIconButton, "Choose a .ico file from disk. The selected icon is copied into this config package folder.");
+        SetHelp(hideLauncherConsoleCheck, "Hide the generated launcher's own CMD window during normal startup. Credential provisioning remains visible because it prompts for a password.");
         SetHelp(domainText, "Windows domain for the restricted account. Use . for a local workstation account.");
         SetHelp(userNameText, "Restricted Windows user that will run the destination app.");
         SetHelp(credentialTargetText, "Credential Manager target name where this package stores and reads the restricted user's password.");
@@ -1229,6 +1235,35 @@ public sealed class MainForm : Form
     }
 
     // ── Full-width row with browse button ─────────────────────────────────
+
+    private void AddCheckFullRow(TableLayoutPanel form, ModernCheckBox checkBox, string text)
+    {
+        const int rowHeight = 44;
+
+        form.RowStyles.Add(new RowStyle(SizeType.Absolute, rowHeight));
+        int row = form.RowCount++;
+
+        Panel cell = new()
+        {
+            Dock = DockStyle.Fill,
+            BackColor = BackgroundColor,
+            Padding = new Padding(0, 2, 0, 0)
+        };
+
+        checkBox.Text = text;
+        checkBox.Font = UiFont;
+        checkBox.BackColor = BackgroundColor;
+        checkBox.Height = 34;
+        checkBox.Left = 0;
+        checkBox.Top = 4;
+        checkBox.Anchor = AnchorStyles.Left | AnchorStyles.Top;
+
+        cell.Controls.Add(checkBox);
+        cell.Resize += (_, _) => checkBox.Width = Math.Max(0, cell.ClientSize.Width - 8);
+
+        form.Controls.Add(cell, 0, row);
+        form.SetColumnSpan(cell, 2);
+    }
 
     private void AddFieldFullRowWithBrowse(TableLayoutPanel form, string label, TextBox textBox, PickerButton browseButton)
     {
@@ -1563,6 +1598,7 @@ public sealed class MainForm : Form
         packageNotesText.TextChanged += (_, _) => MarkDirty();
         launcherExeText.TextChanged += (_, _) => MarkDirty();
         launcherIconFileText.TextChanged += (_, _) => MarkDirty();
+        hideLauncherConsoleCheck.CheckedChanged += (_, _) => MarkDirty();
         domainText.TextChanged += (_, _) => MarkDirty();
         userNameText.TextChanged += (_, _) => MarkDirty();
         credentialTargetText.TextChanged += (_, _) => MarkDirty();
@@ -1655,6 +1691,7 @@ public sealed class MainForm : Form
             packageNotesText.Text = config["notes"]?.GetValue<string>() ?? string.Empty;
             launcherExeText.Text = ReadString(config, "launcher", "executableName");
             launcherIconFileText.Text = ReadString(config, "launcher", "iconFile");
+            hideLauncherConsoleCheck.Checked = ReadBool(config, false, "launcher", "hideConsole");
             domainText.Text = ReadString(config, "restrictedUser", "domain");
             userNameText.Text = ReadString(config, "restrictedUser", "userName");
             credentialTargetText.Text = ReadString(config, "credentialManager", "targetName");
@@ -1698,12 +1735,57 @@ public sealed class MainForm : Form
             return;
         }
 
-        Directory.CreateDirectory(folder);
-        File.WriteAllText(Path.Combine(folder, "prelaunch.cmd"), "@echo off\r\nexit /b 0\r\n");
+        string defaultAssetsFolder = Path.Combine(repositoryRoot, "src", "SafeLauncherAdmin", "img");
+        string defaultIconPath = Path.Combine(defaultAssetsFolder, DefaultLauncherIconFileName);
+        string defaultSplashPath = Path.Combine(defaultAssetsFolder, DefaultSplashImageFileName);
+
+        if (!File.Exists(defaultIconPath) || !File.Exists(defaultSplashPath))
+        {
+            MessageBox.Show(
+                "Cannot create the package because one or more default assets are missing:\n\n" +
+                $"{defaultIconPath}\n{defaultSplashPath}",
+                "Default Assets Missing",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Warning);
+            return;
+        }
+
+        try
+        {
+            Directory.CreateDirectory(folder);
+            File.Copy(defaultIconPath, Path.Combine(folder, DefaultLauncherIconFileName));
+            File.Copy(defaultSplashPath, Path.Combine(folder, DefaultSplashImageFileName));
+            File.WriteAllText(Path.Combine(folder, "prelaunch.cmd"), "@echo off\r\nexit /b 0\r\n");
+        }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+        {
+            try
+            {
+                if (Directory.Exists(folder))
+                {
+                    Directory.Delete(folder, recursive: true);
+                }
+            }
+            catch (Exception)
+            {
+            }
+
+            MessageBox.Show(
+                $"Failed to create the package assets:\n\n{ex.Message}",
+                "Create Package Failed",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Warning);
+            return;
+        }
 
         JsonObject config = new()
         {
-            ["launcher"] = new JsonObject { ["executableName"] = $"{packageName}.exe", ["iconFile"] = "" },
+            ["launcher"] = new JsonObject
+            {
+                ["executableName"] = $"{packageName}.exe",
+                ["iconFile"] = DefaultLauncherIconFileName,
+                ["hideConsole"] = false
+            },
             ["restrictedUser"] = new JsonObject { ["domain"] = ".", ["userName"] = "ai_agent_user" },
             ["credentialManager"] = new JsonObject { ["targetName"] = $"SafeLauncher/{packageName}" },
             ["destination"] = new JsonObject
@@ -1715,9 +1797,9 @@ public sealed class MainForm : Form
             ["preLaunch"] = new JsonObject { ["batchFile"] = "prelaunch.cmd", ["timeoutSeconds"] = 30 },
             ["splash"] = new JsonObject
             {
-                ["enabled"] = false,
-                ["imageFile"] = "",
-                ["minimumSeconds"] = 0
+                ["enabled"] = true,
+                ["imageFile"] = DefaultSplashImageFileName,
+                ["minimumSeconds"] = DefaultSplashMinimumSeconds
             }
         };
 
@@ -1810,8 +1892,13 @@ public sealed class MainForm : Form
             return;
         }
 
+        string distFolder = Path.Combine(repositoryRoot, "dist", packageName);
+        string distWarning = Directory.Exists(distFolder)
+            ? $"\n\nThis will also permanently delete the built launcher output folder:\n{distFolder}"
+            : "\n\nNo matching built launcher output folder was found under dist.";
+
         DialogResult result = MessageBox.Show(
-            $"Delete config package \"{packageName}\"?\n\nThis will permanently delete the package folder and its pre-launch batch.",
+            $"Delete config package \"{packageName}\"?\n\nThis will permanently delete the package folder and its pre-launch batch.{distWarning}",
             "Delete Config Package?",
             MessageBoxButtons.YesNo,
             MessageBoxIcon.Warning);
@@ -1822,6 +1909,11 @@ public sealed class MainForm : Form
         }
 
         Directory.Delete(folder, recursive: true);
+        if (Directory.Exists(distFolder))
+        {
+            Directory.Delete(distFolder, recursive: true);
+        }
+
         Log($"Deleted package: {packageName}");
         selectedPackageFolder = null;
         LoadPackages();
@@ -2249,7 +2341,8 @@ public sealed class MainForm : Form
             ["launcher"] = new JsonObject
             {
                 ["executableName"] = launcherExeText.Text.Trim(),
-                ["iconFile"] = launcherIconFileText.Text.Trim()
+                ["iconFile"] = launcherIconFileText.Text.Trim(),
+                ["hideConsole"] = hideLauncherConsoleCheck.Checked
             },
             ["restrictedUser"] = new JsonObject
             {

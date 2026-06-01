@@ -46,6 +46,8 @@ internal static class Program
             return HandleCommandLine(args);
         }
 
+        HideConsoleWindowIfConfigured();
+
         using SplashScreenHandle splashScreen = SplashScreenHandle.StartIfConfigured();
 
         string domain = LauncherConfig.Domain;
@@ -146,6 +148,23 @@ internal static class Program
 
                 CloseHandle(userToken);
             }
+        }
+    }
+
+    // Hides the launcher's own console window when the selected package asks
+    // for quiet startup. This does not affect credential provisioning because
+    // provisioning is handled before this method is called.
+    private static void HideConsoleWindowIfConfigured()
+    {
+        if (!LauncherConfig.HideLauncherConsole)
+        {
+            return;
+        }
+
+        IntPtr consoleWindow = GetConsoleWindow();
+        if (consoleWindow != IntPtr.Zero)
+        {
+            ShowWindow(consoleWindow, SW_HIDE);
         }
     }
 
@@ -1176,6 +1195,12 @@ internal static class Program
 
     [DllImport("kernel32.dll", SetLastError = true)]
     private static extern bool CloseHandle(IntPtr hObject);
+
+    [DllImport("kernel32.dll")]
+    private static extern IntPtr GetConsoleWindow();
+
+    [DllImport("user32.dll")]
+    private static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
     [DllImport("kernel32.dll", SetLastError = true)]
     private static extern uint WaitForSingleObject(IntPtr hHandle, uint dwMilliseconds);

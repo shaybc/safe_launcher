@@ -2,7 +2,8 @@
   "notes": "",
   "launcher": {
     "executableName": "agent1.exe",
-    "iconFile": ""
+    "iconFile": "",
+    "hideConsole": false
   },
   "restrictedUser": {
     "domain": ".",

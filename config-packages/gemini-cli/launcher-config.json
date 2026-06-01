@@ -2,7 +2,8 @@
   "notes": "",
   "launcher": {
     "executableName": "gemini_cli.exe",
-    "iconFile": "AI_30919.ico"
+    "iconFile": "AI_30919.ico",
+    "hideConsole": false
   },
   "restrictedUser": {
     "domain": ".",

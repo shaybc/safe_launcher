@@ -78,6 +78,11 @@ if ($launcherExecutableName -notmatch '^[A-Za-z0-9._ -]+\.exe$') {
     throw "launcher.executableName must end with .exe and may contain only letters, numbers, spaces, dots, underscores, and hyphens."
 }
 
+$hideLauncherConsole = $false
+if ($null -ne $config.launcher -and $null -ne $config.launcher.hideConsole) {
+    $hideLauncherConsole = [bool]$config.launcher.hideConsole
+}
+
 $launcherIconPath = ""
 if ($null -ne $config.launcher -and -not [string]::IsNullOrWhiteSpace([string]$config.launcher.iconFile)) {
     $launcherIconPath = Resolve-ConfigRelativePath -BaseDirectory $configDirectory -Path ([string]$config.launcher.iconFile)
@@ -175,6 +180,7 @@ internal static class LauncherConfig
     public const string WorkingDirectory = $(ConvertTo-CSharpStringLiteral ([string]$config.destination.workingDirectory));
     public const string DestinationExecutable = $(ConvertTo-CSharpStringLiteral ([string]$config.destination.executable));
     public const string LauncherExecutableName = $(ConvertTo-CSharpStringLiteral $launcherExecutableName);
+    public static readonly bool HideLauncherConsole = $($hideLauncherConsole.ToString().ToLowerInvariant());
     public const int PreLaunchTimeoutSeconds = $timeoutSeconds;
     public const string PreLaunchBatchBase64 = $(ConvertTo-CSharpStringLiteral $batchBase64);
     public const bool SplashEnabled = $($splashEnabled.ToString().ToLowerInvariant());
