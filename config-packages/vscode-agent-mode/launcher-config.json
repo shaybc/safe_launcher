@@ -1,0 +1,29 @@
+{
+  "notes": "",
+  "launcher": {
+    "executableName": "vscode-agent-mode.exe",
+    "iconFile": "",
+    "hideConsole": false
+  },
+  "restrictedUser": {
+    "domain": ".",
+    "userName": "ai_agent_user"
+  },
+  "credentialManager": {
+    "targetName": "SafeLauncher/vscode-agent-mode"
+  },
+  "destination": {
+    "executable": "c:\\vscode\\VSCode.exe",
+    "workingDirectory": "C:\\ai-workspace",
+    "arguments": []
+  },
+  "preLaunch": {
+    "batchFile": "prelaunch.cmd",
+    "timeoutSeconds": 30
+  },
+  "splash": {
+    "enabled": false,
+    "imageFile": "",
+    "minimumSeconds": 0
+  }
+}

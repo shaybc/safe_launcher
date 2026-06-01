@@ -89,7 +89,8 @@ The package `launcher-config.json` contains the actual launcher settings:
 {
   "launcher": {
     "executableName": "gcli.exe",
-    "iconFile": "gcli.ico"
+    "iconFile": "gcli.ico",
+    "hideConsole": false
   },
   "restrictedUser": {
     "domain": ".",
@@ -136,6 +137,8 @@ SafeLauncher-CrewAI.exe
 Use stable admin-chosen names and avoid names that mimic the destination executable itself, such as `node.exe`, `python.exe`, or tool names that trigger app-specific restart bugs.
 
 `launcher.iconFile` is optional. When set, it must point to a `.ico` file, usually copied into the config package folder by the admin UI. The build script applies it as the generated EXE's Windows icon. Leaving it empty or omitting it keeps the default application icon and does not break the build.
+
+`launcher.hideConsole` is optional and defaults to `false`. When set to `true`, the generated launcher hides its own startup CMD window during normal launches before it runs the pre-launch batch and starts the destination app. Credential provisioning still opens a visible console because the administrator must type the restricted user's password.
 
 ## Splash Screen
 
@@ -322,9 +325,12 @@ The UI lets an administrator:
 - Create new folders under `config-packages`.
 - Edit an existing package `launcher-config.json`.
 - Edit the package pre-launch batch.
+- Choose whether the generated launcher's startup CMD window is visible or hidden.
 - Select the active package by updating the root `launcher-config.json`.
 - Build the selected package.
 - Open credential provisioning for the selected package.
+
+When deleting a config package from the admin UI, the matching build output folder under `dist\<config-package-folder>\` is deleted as well. The confirmation dialog shows this before deletion so the administrator knows both the source package and built EXE output will be removed.
 
 The Provision Credential button opens a visible console because the credential command prompts for the restricted user's password.
 
